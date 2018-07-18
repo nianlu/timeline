@@ -3,6 +3,8 @@
     "next/babel"
   ],
   "plugins": [
-    ["transform-define", "./env-config.js"]
+    ["transform-define", {
+      'process.env.BACKEND_URL': '/timeline'
+    }]
   ]
 }
