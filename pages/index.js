@@ -15,11 +15,13 @@ export default () =>
       <link href="https://unpkg.com/@blueprintjs/core/lib/css/blueprint.css" rel="stylesheet" />
       <link href="https://unpkg.com/@blueprintjs/icons/lib/css/blueprint-icons.css" rel="stylesheet" />
     </Head>
-    <body>
+    <body style={{ margin: '0 auto', maxWidth: '1080px' }}>
       <Navigation />
-      <div style={{display: 'flex', flexDirection: 'row'}}>
-        <div style={{order: 1, width: '200px'}}><Timeline /></div>
-        <div style={{order: 2, width: '100%'}}><Content /></div>
-      </div>
+      <Content />
     </body>
   </div>
+
+      // <div style={{display: 'flex', flexDirection: 'row'}}>
+        // <div style={{order: 1, width: '200px'}}><Timeline /></div>
+        // <div style={{order: 2}}><Content /></div>
+      // </div>
